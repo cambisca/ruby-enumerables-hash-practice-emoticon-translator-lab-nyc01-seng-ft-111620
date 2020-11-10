@@ -13,15 +13,9 @@
 #   "surprised" => [ ":o", "o_O" ],
 #   "wink" => [ ";)", "(^_-)" ]
 # }
+require 'yaml' 
 
 
-def load_library(path)
-  require 'yaml' 
-  emojis = YAML.load_file('lib/emoticons.yml')
-  emojis.map do |emotion|
-    
-
-end
 
 def get_japanese_emoticon
 
